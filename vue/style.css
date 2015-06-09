@@ -1287,9 +1287,9 @@
         color: #666;
         border-radius: 5px;
         background: #F8F8F8;
-		font-size: 1.2em;
+		font-size: 1em;
 		display: inline-block;
-		width: 100%;
+		width: 95%;
 		margin-top: 5%;
 	}
 	
@@ -1329,6 +1329,22 @@
 		display: inline-block;
         border-top: 0.1em solid #808080 ;
 	}
+
+    .proposer_echange
+    {
+        font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 20px 0px 20px 40px;
+        display: block;
+        margin: -30px -30px 10px -30px;
+        color: #FFF;
+        background: #F78181;
+        text-shadow: 1px 1px 1px #949494;
+        border-radius: 5px 5px 0px 0px;
+        -webkit-border-radius: 5px 5px 0px 0px;
+        -moz-border-radius: 5px 5px 0px 0px;
+        border-bottom:1px solid #89AF4C;
+    }
+
 	
 	 /*-------------- ECHANGE -----------------------*/
 	#bloc_echange
@@ -1342,9 +1358,3 @@
 
         }
 
- 	article3
-        {
-            width: 70%;
-            margin-right: 15px;
-            background: url('images/fond1.8.png');
-        }

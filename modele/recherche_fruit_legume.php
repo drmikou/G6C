@@ -38,7 +38,7 @@
 			foreach ($s as $mot)
 			{
 				echo'<article> <h1>'.$c2.':</h1> <h1> <img src="../vue/images/fruits_legumes/'.$c2.'.jpg" alt="Image flottante2" class="imageflottante"width="100" heigh="100" /> </h1>'; 
-				echo'<h2> Qu\'est ce qu\'un(e) "'.$c2.'" ?</h2> <p>'.$donnees["fruit_legumes_description"].'</p> </br> <a href="../controleur/echange.php?barre_recherche='.$donnees["fruit_legumes_nom"].'">Voir les échanges en rapport avec '.$donnees["fruit_legumes_nom"].'</a> </article>';
+				echo'<h2> Qu\'est ce qu\'un(e) "'.$c2.'" ?</h2> <p>'.$donnees["fruit_legumes_description"].'</p> </br> <a href="../controleur/echanges.php?barre_recherche='.$donnees["fruit_legumes_nom"].'">Voir les échanges en rapport avec '.$donnees["fruit_legumes_nom"].'</a> </article>';
 			}
 		}
 

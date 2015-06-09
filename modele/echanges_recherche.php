@@ -57,6 +57,7 @@
 	//  AFFICHAGE PAR DEFAUT ORDONNER PAR DATE La PLUS RECENTE
 	else
 	{
+
 		include("../vue/echanges_affichage.php");
 	}
 ?>

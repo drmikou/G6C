@@ -2,18 +2,15 @@
 
 	include("../modele/echanges.php");
 
-	if(isset($pseudo_echange))
-	{
-		echo $pseudo_echange ;
-	}
 ?>
 
 </b>
 	<form method="post" action="">	
-		<h1>Proposer un échange</h1><br><br>
+
+		<div class="proposer_echange">Proposer un échange</div><br><br>
 		<p>
 		<div id="bloc1">  
-			<h4>Fruit ou légume échangé</h4>
+			<h6>Fruit ou légume échangé</h6>
 			<p>
 			<select name="produit_1">
 				<?php
@@ -30,8 +27,9 @@
 			<label for="quantite_produit_1"> Quantité en kg:</label>  <input name="quantite_produit_1" type="number" step="0.001" id="quantite_produit_1" /><br/>
 			</p></p><br><br>
 		</div>
+
 		<div id="bloc2">
-			<h4>Fruit ou légume souhaité</h4>
+			<h6>Fruit ou légume souhaité</h6>
 			<p>                    
 			<select name="produit_2">
 				<?php

@@ -11,15 +11,16 @@
 				?>
 				        <br>
 				<?php 
-				        include("../vue/echanges_banniere.php"); 
-				        include("../vue/echanges_recherche_form.php");
+						include("../vue/echanges_recherche_form.php");
+				        include("../vue/echanges_banniere.php");   
 				        include("../modele/echanges_recherche.php"); 
 				    }
 				    else // Membre du site
 				    {
+				    	include("../vue/echanges_recherche_form.php");
 				        include("../vue/echanges_banniere.php");
 				        include("../vue/echanges_form.php");
-				        include("../vue/echanges_recherche_form.php");
+				        
 				        include("../modele/echanges_recherche.php");
 					}
 				?> 
