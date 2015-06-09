@@ -18,7 +18,7 @@
 
                     <!-- Page d'achats -->
                         <dl>
-                            <dt><a href="../controleur/echange.php"> Echanges </a></dt>  
+                            <dt><a href="../controleur/echanges.php"> Echanges </a></dt>  
                         </dl>
 
                     <!-- Fruits et légumes -->
