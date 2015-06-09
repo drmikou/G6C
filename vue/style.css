@@ -1228,3 +1228,18 @@
     {
         resize:none;
     }
+    
+    /*-------------------- Echange --------------------*/
+    #bloc1 
+    {
+    	display: inline-block; 
+    	float: left; 
+    	width: 45%; 
+    }
+    
+    #bloc2
+    {
+    	display: inline-block;
+    	float: right;
+    	width: 45%;
+    }
