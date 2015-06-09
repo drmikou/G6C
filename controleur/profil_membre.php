@@ -2,7 +2,7 @@
     session_start();
     $titre = "Profil membre";
     include("start.php");
-    include("../modele/notation_moyenne.php");
+    /*include("../modele/notation_moyenne.php");*/
 
 ?>
 
