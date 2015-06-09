@@ -21,4 +21,8 @@
         
         $note_finale = ($note_totale/$count);
         
+        $affichage = $ddb->query('INSERT INTO user (user_rate) VALUES(:rate)');
+        $affichage->bindValue(':rate', $note_finale, PDO::PARAM_STR);
+        $affichage->execute();
+        $affichage->closeCursor();
         ?>
