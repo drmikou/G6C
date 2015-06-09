@@ -6,7 +6,7 @@
 
 
 			<div id="home_image">
-				<img  src="../vue/images/orange.jpg" class="imageflottante" alt="verger" id="verger" width="102.5%"/>
+				<img  src="images/fruits-et-legumes-de-saison.jpg" class="imageflottante" alt="verger" id="verger" width="105%"/>
 			</div>
 
 
