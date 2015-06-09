@@ -1,3 +1,4 @@
+<?php
 if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 1)
 {
   for($i=1; $i<=1;i++)
@@ -38,3 +39,4 @@ if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_R
   }
 }
 
+?>
