@@ -27,17 +27,16 @@
                         </dl>                 
                                   
 
-                    <!--  Actualités -->
-                        <dl>
-                            <dt><a href='../controleur/actualites.php'> Actualités </a></dt>
-                        </dl>              
-
                     <!-- Page de recettes -->         
                         <dl>
                             <dt><a href="../controleur/recette.php">Recettes</a></dt>
                         </dl>
+
+                    <!-- Profil -->
+                            <dl>
+                                <dt><a href="../controleur/profil.php"><?php echo $pseudo ?></a></dt>
+                            </dl>    
                                         
-       
                     <!-- Administration -->
                         <dl>
                             <dt><a href="../controleur/administration.php">Administration</a></dt>
