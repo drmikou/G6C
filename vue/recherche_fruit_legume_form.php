@@ -1,9 +1,9 @@
 <form method="get" action="../controleur/fruit_legume.php">
 
-      <h4>Recherche:</h4>
+      <h4>Rechercher un fruit / légume:</h4>
 
-      <input type="text" name="barre_recherche"/>
+      <p><input type="text" name="barre_recherche"/></p>
       
-      <input type="submit" value="Recherche!"/>
+      <p><input type="submit" value="Rechercher mon fruit!"/></p>
 
 </form> 

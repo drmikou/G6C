@@ -445,7 +445,7 @@
 
     #membre_voir fieldset
     {
-         width:78%;
+        width:78%;
         margin-top: 1em;
         margin-left: 10%;
     }
@@ -752,15 +752,31 @@
 
 	#chat
 	{
-		max-height : 1%;
-		border:1px solid grey;
-		width : 90%;
-		background : #F5F5F5;	
-		padding : 3px;
-		margin-bottom : 10px;		
-		font-style : none;
-		font-weight: normal;
+        margin-left:auto;
+        margin-right:auto;
+        padding: 2% 10% 2% 10%;
+        color: #666;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        background: #F8F8F8;
+        margin-top: 0;
 	}
+
+    h5
+    {
+        font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 20px 0px 20px 40px;
+        display: block;
+        margin: -30px 0% 0px 0%;
+        color: #FFF;
+        background: #9DC45F;
+        text-shadow: 1px 1px 1px #949494;
+        border-radius: 5px 5px 0px 0px;
+        -webkit-border-radius: 5px 5px 0px 0px;
+        -moz-border-radius: 5px 5px 0px 0px;
+        border-bottom:1px solid #89AF4C;
+    }
 
 	.pseudo_chat
 	{
@@ -771,6 +787,35 @@
 		width : 90%;
 	}
 
+    .chat_pseudo
+    {
+        font-size: 1.2em;
+        display: inline; 
+        margin-right: 3%;
+        max-width: 20em;
+    }
+
+    .chat_message
+    {
+        color:green;
+        display: inline; 
+        margin-left: 2%;
+    }
+
+    h6
+    {
+        font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 5px 0px 5px 10px;
+        display: block;
+        margin: -30px 0% 0px 0%;
+        color: #FFF;
+        background: #BDBDBD;
+        text-shadow: 1px 1px 1px #949494;
+        border-radius: 5px 5px 0px 0px;
+        -webkit-border-radius: 5px 5px 0px 0px;
+        -moz-border-radius: 5px 5px 0px 0px;
+        border-bottom:1px solid #89AF4C;
+    }
 
     /* ----------- Information profil ----------- */
 
@@ -865,20 +910,14 @@
         /* Position, police article */
         article, article2, aside
         {
-            margin-top: 60px;
-            font-family: "QuickBook";
-            font-size: 1.2em;
-            display: inline-block;
-            vertical-align: top;
-            text-align: justify;
-            margin: 2%;   
-            border-radius: 2px;
-            box-shadow: 0px 1px 1px #1c1a19;
-            margin-bottom: 25px;
-            padding-top: 10px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
+            margin-left: 10%;
+            padding: 2% 2% 2% 2%;
+            color: #666;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            background: #F8F8F8;
+            margin-top: 1%;
         }
 
         /* Taille, fond article */

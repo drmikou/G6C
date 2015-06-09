@@ -1,6 +1,10 @@
 <div id="bloc_chat" class="centrage">
 
+<br> <br>
+	<h5> Le chat </h5>
 	<?php // VISITEUR
+
+
 		if($id==0)
 		{
 	?>
@@ -11,7 +15,7 @@
 				while($msg = $allmsg->fetch())
 				{
 	?>
-					<b> <?php echo $msg['chat_pseudo'];?> :</b> <?php echo date($msg['chat_date']) ; ?> <?php echo $msg['chat_message']; ?>
+					<div class="chat_pseudo"> <?php echo $msg['chat_pseudo'];?> : </div> [<?php echo date($msg['chat_date']) ; ?>]<div class="chat_message"> <?php echo $msg['chat_message']; ?></div>
 					<br>
 	<?php
 				}
@@ -29,7 +33,7 @@
 				while($msg = $allmsg->fetch())
 				{
 	?>
-					<b> <?php echo $msg['chat_pseudo']; ?> :</b> <?php echo date($msg['chat_date']) ; ?>   	<?php echo $msg['chat_message']; ?>
+					<div class="chat_pseudo"> <?php echo $msg['chat_pseudo']; ?>:</div> [<?php echo date($msg['chat_date']) ; ?>] <div class="chat_message"><?php echo $msg['chat_message']; ?></div>
 					<br>
 	<?php
 				}
