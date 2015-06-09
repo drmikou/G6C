@@ -18,7 +18,7 @@
 
                         <!-- Fruits et légumes -->
                             <dl>
-                                <dt><a href="../controleur/fruits_et_legumes.php">Fruits et Légumes</a></dt>
+                                <dt><a href="../controleur/fruit_legume.php">Fruits et Légumes</a></dt>
                             </dl>
 
                         <!-- Page d'achats -->

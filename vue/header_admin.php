@@ -23,13 +23,13 @@
 
                     <!-- Fruits et légumes -->
                         <dl>
-                            <dt><a href="../controleur/fruits_et_legumes.php">Fruits / Légumes</a></dt>
+                            <dt><a href="../controleur/fruit_legume.php">Fruits / Légumes</a></dt>
                         </dl>                 
                                   
 
                     <!--  Actualités -->
                         <dl>
-                            <dt><a href='../controleur/news.php'> Actualités </a></dt>
+                            <dt><a href='../controleur/actualites.php'> Actualités </a></dt>
                         </dl>              
 
                     <!-- Page de recettes -->         

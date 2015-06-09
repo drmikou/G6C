@@ -15,6 +15,12 @@
                         <li><a href='../controleur/membre_voir.php'> Voir les membres </a> </li>
                         <li><span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('membre_supprimer');">Supprimer un utilisateur</span> </li>
                 </div>
+
+                <div class="box">                          
+                    <ul class="titre_list"> Base de données </ul>
+                        <li><a href='../controleur/fruit_legume_ajouter.php'> Ajouter un fruit / légume </a> </li>
+                        <li><a href='../controleur/recette_ajouter.php'> Ajouter une recette </a> </li>
+                </div>
             </section>
                                       
         </div>

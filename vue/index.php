@@ -24,7 +24,7 @@
 									<div class="contenu">
 										<p> <?php echo $data['news_content']?> </p>
 									</div>
-										<p class="bouton"><a href="#">Plus de détails</a></p>
+										<p class="bouton"><a href="../controleur/actualites.php">Plus de détails</a></p>
 							</div>
 						</section>
 								
