@@ -13,7 +13,7 @@
 
 				if($data['user_login']== $destination)
 				{
-					$query=$db->prepare('INSERT INTO message (message_sender, message_destination, message_content) VALUES (:sender, :destination, :contenu)');
+					$query=$db->prepare('INSERT INTO message (message_sender, message_destination, message_content, message_date) VALUES (:sender, :destination, :contenu, NOW())');
 					$query->bindValue(':sender', $pseudo, PDO::PARAM_STR);
 					$query->bindValue(':destination', $destination, PDO::PARAM_STR);
 					$query->bindValue(':contenu', $contenu, PDO::PARAM_STR);
