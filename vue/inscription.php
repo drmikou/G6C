@@ -37,7 +37,9 @@
 
                             if (isset($_POST['password']))
                             {
+                            	$key = 'f6d2qds64q92';
 								$password = $_POST['password'];
+								$pass_encrypted = base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256,md5($key), $password,MCRYPT_MODE_CBC, md5(md5($key))));
 							}
 
                             if (isset($_POST['email']))
