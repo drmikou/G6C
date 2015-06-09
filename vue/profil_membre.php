@@ -26,7 +26,14 @@
                     </div>
 
                     <div class="bloc">
-                        <img  src="../vue/images/note.png" class="imageflottante" alt="region" id="region" width="30" /><div class= "decalage">Note : </div><br> <br>     <div class="donnee"> <?php echo $data['user_rate'] ?> </div> <br>
+                        <img  src="../vue/images/note.png" class="imageflottante" alt="region" id="region" width="30" />
+                                <div class= "decalage">Note : </div><br> <br>     
+                                <div class="donnee">
+                                        <?php include("../vue/notation_affichage.php"); ?> 
+                                        <?php include("../vue/notation_affichage.php"); ?>
+                                        <?php include("../vue/notation_envoyer.php");?>
+                                </div> 
+                        <br>
                     </div>
 
             </div>
