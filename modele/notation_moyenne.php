@@ -1,5 +1,5 @@
   <?php
-        $reponse = $bdd->query('SELECT note FROM note WHERE note_receiver=:receiver');
+        $reponse = $db->query('SELECT note FROM note WHERE note_receiver=:receiver');
         $reponse->bindValue(':receiver', $receiver, PDO::PARAM_STR);
         $reponse->execute();
         $count = 0;
@@ -21,7 +21,7 @@
         
         $note_finale = ($note_totale/$count);
         
-        $affichage = $ddb->query('INSERT INTO user (user_rate) VALUES(:rate)');
+        $affichage = $db->query('INSERT INTO user (user_rate) VALUES(:rate)');
         $affichage->bindValue(':rate', $note_finale, PDO::PARAM_STR);
         $affichage->execute();
         $affichage->closeCursor();
