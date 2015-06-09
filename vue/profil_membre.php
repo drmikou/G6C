@@ -28,7 +28,6 @@
                         <img  src="../vue/images/note.png" class="imageflottante" alt="region" id="region" width="30" />
                                 <div class= "decalage">Note : </div><br> <br>     
                                 <div class="donnee">
-                                        <?php include("../modele/notation_moyenne.php"); ?> 
                                         <?php include("../vue/notation_affichage.php"); ?> 
                                         <?php include("../vue/notation_envoyer.php");?>
                                 </div> 
