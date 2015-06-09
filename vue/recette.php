@@ -15,7 +15,7 @@
 		                </article>
 
 		                <article>
-		                    <h1><img src="../vue/images/fruits_legumes/brocoli.jpg" alt="Image flottante1" class="imageflottante" width="150" heigh="150" />Souvenez-vous: les légumes oubliés !</h1>
+		                    <h1><img src="../vue/images/fruits_legumes/brocoli.jpg" alt="Image flottante1" class="imageflottante" width="100" heigh="150" />Souvenez-vous: les légumes oubliés !</h1>
 		                    <p>Vous souhaitez redécouvrir des saveurs oubliées, alors n'hésitez plus et cliquez tout est expliqué !</p>
 		                    <p>Mangez la cuisine de nos aïeux!</p>
 		                </article>
