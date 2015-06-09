@@ -4,7 +4,7 @@
     
 	$query->bindValue(':pseudo', $pseudo, PDO::PARAM_STR);
 
-    $query->bindValue(':password', $password, PDO::PARAM_INT);
+    $query->bindValue(':password', $pass_encrypted, PDO::PARAM_INT);
 
     $query->bindValue(':email', $email, PDO::PARAM_STR);
 

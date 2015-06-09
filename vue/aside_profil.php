@@ -8,8 +8,6 @@
                 <img  src="../vue/images/communaute.png" class="imageflottante" alt="communaute" id="communaute" width="30" />                          
                 <ul class="titre_list"> Communauté </ul>
                     <li><span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('profil_public');">Mon profil public</span> </li>
-                    <li> Tous vos commentaires </li>
-                    <li> Mes évaluations </li>
                     <li><a href='../controleur/profil_membre.php'> Voir le profil d'un membre </a> </li>
             </div>
         </section>
