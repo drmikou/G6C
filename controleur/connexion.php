@@ -28,8 +28,11 @@
 			else
 			{	
 				include("../modele/connexion.php");
-
-				if($_POST['password'] == $data['user_password'])			// Le MOT DE PASSE est-il correct? / md5: permet de chiffrer une chaîne de caractère en un entier hexadécimal de 32 caractères.
+					$key = 'f6d2qds64q92';
+					$password1 = $_POST['password'];
+					$password_encrypted = base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256,md5($key), $password1,MCRYPT_MODE_CBC, md5(md5($key))));
+				
+				if($password_encrypted == $data['user_password'])			// Le MOT DE PASSE est-il correct? / md5: permet de chiffrer une chaîne de caractère en un entier hexadécimal de 32 caractères.
 				{
 					$message = 'Bienvenue '. $data['user_login'] .' ! Vous êtes maintenant connecté sur notre communauté!';			// Identification réussit
 					$_SESSION['pseudo'] = $data['user_login'];
