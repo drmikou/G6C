@@ -44,7 +44,7 @@
                                     
                     <!-- Inscription -->
                         <dl>
-                            <dt><a href="../controleur/page_inscription.php">S'inscrire</a></dt>
+                            <dt><a href="../controleur/inscription.php">S'inscrire</a></dt>
                         </dl>
                                     
                 </div>
