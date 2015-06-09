@@ -1,4 +1,4 @@
-if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 1)
+if(float round( float $note_finale [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 1)
 {
   for($i=1; $i<=1;i++)
   {
@@ -6,7 +6,7 @@ if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_R
   }
 }
 
-if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 2)
+if(float round( float $note_finale [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 2)
 {
   for($i=1; $i<=2;i++)
   {
@@ -14,7 +14,7 @@ if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_R
   }
 }
 
-if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 3)
+if(float round( float $note_finale [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 3)
 {
   for($i=1; $i<=3;i++)
   {
@@ -22,7 +22,7 @@ if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_R
   }
 }
 
-if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 4)
+if(float round( float $note_finale [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 4)
 {
   for($i=1; $i<=4;i++)
   {
@@ -30,7 +30,7 @@ if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_R
   }
 }
 
-if(float round( float $data['user_rate'] [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 5)
+if(float round( float $note_finale [, int $precision =0[, int $mode= PHP_ROUND_HALF_UP]] == 5)
 {
   for($i=1; $i<=5;i++)
   {
