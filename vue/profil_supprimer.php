@@ -20,7 +20,7 @@
 			{
 				include("../modele/profil_supprimer_check.php");
 
-				if($data['user_password'] == $mdp_actuel)
+				if($data['user_password'] == $mdp_actuel_encrypted)
 				{
 					include("../modele/profil_supprimer.php");
 					echo "Votre compte a bien été supprimé!";
@@ -35,7 +35,7 @@
 					echo '<p>Cliquez <a href="../controleur/index.php">ici</a> pour retourner sur la page d\'accueil.</p>';
 				
 				}
-				elseif($data['user_password'] != $mdp_actuel)
+				elseif($data['user_password'] != $mdp_actuel_encrypted)
 				{
 					echo "Votre mot de passe est faux!";
 				}
