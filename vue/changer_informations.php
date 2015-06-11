@@ -86,7 +86,7 @@
     <?php
 
 
-        if (isset($_POST['phone_new']) && isset($pseudo) )
+        if (isset($_POST['town_new']) && isset($_POST['street_new']) && isset($pseudo) )
         {
             $town= $_POST['town_new'];
             $street= $_POST['street_new'];
@@ -94,7 +94,7 @@
 
             $query= $db->prepare('UPDATE user SET user_town = :town, user_street = :street, user_region = :region WHERE user_login= :login');
             $query->execute(array('town'=> $town, 'street' => $street, 'region' => $region , 'login'=> $pseudo)); // Exécute la préparation
-            echo "Votre numéro de téléphone a bien été changé!";
+            echo "Votre adresse a bien été changé!";
         }
 
     ?>  
