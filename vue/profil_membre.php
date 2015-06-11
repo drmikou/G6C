@@ -10,7 +10,9 @@
         <!-- Affichage du profil recherché -->
         <div class="centrage2">
             <div id="profil_data">
-
+				<?php
+				if(isset($data['user_login']) && isset($data['user_surname']) && isset($data['user_town']) && isset($data['user_region']))
+				{	?>	
                 <div class="titre"> Profil recherché</h2> </div>
                         <div class="bloc">
                                 <img  src="../vue/images/profil.png" class="imageflottante" alt="profil" id="profil" width="30" /><div class= "decalage">Pseudo :</div> <br>     <div class="donnee"> <?php echo $data['user_login'] ?> </div> <br>
@@ -32,7 +34,8 @@
                                         <?php /*include("../vue/notation_envoyer.php");*/?>
                                 </div> 
                         <br>
-                    </div>
+                    </div> 
+                 <?php } ?>
 
             </div>
         </div>
